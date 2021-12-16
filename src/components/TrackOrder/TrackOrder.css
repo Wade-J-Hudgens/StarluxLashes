@@ -1,0 +1,37 @@
+#TrackOrderPage {
+	width: 100%;
+	
+	text-align: center;
+}
+
+#TRACK_HEADER {
+	text-align: center;
+	
+	color: black;
+	font-size: 20px;
+}
+
+#TRACK_EMAIL {
+	width: 600px;
+	max-width: 90%;
+	height: 30px;
+	text-align: center;
+}
+#TRACK_PHONE {
+	width: 600px;
+	max-width: 90%;
+	height: 30px;
+	text-align: center;
+}
+#TRACK_NAME {
+	width: 600px;
+	max-width: 90%;
+	height: 30px;
+	text-align: center;
+}
+#TRACK_SHIPPING {
+	width: 600px;
+	max-width: 90%;
+	height: 30px;
+	text-align: center;
+}

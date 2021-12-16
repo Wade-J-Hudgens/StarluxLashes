@@ -1,0 +1,85 @@
+.CartItemDiv {
+	width: 800px;
+	max-width: 90%;
+	height: 200px;
+	
+	text-align: center;
+	
+	display: inline-block;
+}
+
+.CartItemImg {
+	height:50%;
+	max-width: 100%;
+	
+	border-radius: 25px;
+}
+
+
+.CartItemDes {
+	width: 100%;
+}
+
+.CartItemName {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	
+	font-size: 4vmin;
+}
+
+.CartItemPrice {
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	
+	font-size: 4vmin;
+}
+
+.CartItemRemove {
+	width: 20%;
+	height: 50px;
+	line-height: 50px;
+	float:right;
+	
+	background-color: rgba(248, 118, 215, 0.4);
+	
+	font-size: 13px;
+}
+
+.CartItemSpace {
+	width: 10px;
+	height: 50px;
+	
+	float: right;
+}
+
+.CartItemQuantityDiv {
+	width: 15%;
+	height: 50px;
+	
+	float: right;
+}
+.CartItemQuantityLower {
+	width: 33%;
+	height:100%;
+	line-height: 50px;
+	float: left;
+	
+	background-color: rgba(150, 150, 150, 0.4);
+}
+.CartItemQuantityNum {
+	width: 33%;
+	height:100%;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+}
+.CartItemQuantityRaise {
+	width: 33%;
+	height:100%;
+	line-height: 50px;
+	float: left;
+	
+	background-color: rgba(150, 150, 150, 0.4);
+}

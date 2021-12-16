@@ -1,0 +1,131 @@
+#NAVBAR {
+	position:fixed;
+	left: 0;
+	top:0;
+	width: 400px;
+	max-width: 100%;
+	height: 428px;
+	
+	/*background: linear-gradient(rgba(89, 116, 255, 0) 0px, rgba(89, 116, 255, .8) 100%);
+	background: linear-gradient(rgba(107, 139, 254, 0) 0px, rgba(107, 139, 254, .5) 100%);*/
+	background-color: rgba(255, 255, 255, 0.95);
+	z-index: 10;
+}
+#LOGO_NAVBAR {
+	background-image: url("./CircularLogo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	position:absolute;
+	left:75px;
+	top:0px;
+	width:100%;
+	height:200px;
+}
+#HOMEBUTTON_NAVBAR {
+	position:absolute;
+	left:0px;
+	top:200px;
+	width:100%;
+	height:75px;
+	
+	background-color: rgba(89, 116, 255, 0.5);
+	background-color:rgba(248, 118, 215, 0.5);
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 75px;
+	
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 1px;
+}
+#HOMEBUTTON_NAVBAR:hover {
+	background-color:rgba(248, 118, 215, 0.7);
+}
+#HOMEBUTTON_NAVBAR:active {
+	background-color:rgba(255, 255, 255, 0.7);
+}
+#SHOPBUTTON_NAVBAR {
+	position:absolute;
+	left:0px;
+	top:275px;
+	width:100%;
+	height:75px;
+	background-color: rgba(89, 116, 255, 0.5);
+	background-color:rgba(248, 118, 215, 0.5);
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 75px;
+	
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 1px;
+}
+#SHOPBUTTON_NAVBAR:hover {
+	background-color:rgba(248, 118, 215, 0.7);
+}
+#SHOPBUTTON_NAVBAR:active {
+	background-color:rgba(255, 255, 255, 0.7);
+}
+#VIEWORDER_NAVBAR {
+	position:absolute;
+	left:0px;
+	top:350px;
+	width:100%;
+	height:75px;
+	background-color: rgba(89, 116, 255, 0.5);
+	background-color:rgba(248, 118, 215, 0.5);
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 75px;
+	
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 1px;
+}
+#VIEWORDER_NAVBAR:hover {
+	background-color:rgba(248, 118, 215, 0.7);
+}
+#VIEWORDER_NAVBAR:active {
+	background-color:rgba(255, 255, 255, 0.7);
+}
+#CART_NAVBAR {
+	position:absolute;
+	left:0px;
+	top:350px;
+	width:100%;
+	height:77px;
+	background-color:rgba(248, 118, 215, 0.5);
+	
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 75px;
+	
+	border-top-style: solid;
+	border-top-color: white;
+	border-top-width: 1px;
+}
+#CART_NAVBAR:hover {
+	background-color:rgba(248, 118, 215, 0.7);
+}
+#CART_NAVBAR:active {
+	background-color:rgba(255, 255, 255, 0.7);
+}
+#OPENCLOSE_NAVBAR {
+	position: absolute;
+	
+	top: 0px;
+	width: 50px;
+	height: 50px;
+	
+	object-fit: contain;
+	
+	border-radius: 100px;
+}

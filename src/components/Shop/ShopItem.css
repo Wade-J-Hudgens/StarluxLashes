@@ -1,0 +1,52 @@
+.ContentItemDiv {
+	width: 1200px;
+	max-width: 90%;
+	height: auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.ContentImg {
+	width: 90%;
+	
+	display: inline-block;
+	
+	border-radius: 25px;
+	
+	border-top: 1px solid black;
+}
+.ContentNamePrice {
+	text-align: center;
+	
+	color: black;
+	
+	font-size: 25px;
+}
+.ContentATCButton {
+	width: 900px;
+	max-width: 90%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	
+	display: inline-block;
+	
+	background-color: rgba(248, 118, 215, 0.4);
+	
+	color: white;
+	
+	font-size: 20px;
+	
+	border-bottom: 1px solid black;
+}
+.ContentATCButton:hover {
+	background-color: rgba(248, 118, 215, 0.6);
+}
+.ContentATCButton:active {
+	background-color: white;
+}
+.ContentDescription {
+	text-align: center;
+	
+	font-size: 20px;
+}
